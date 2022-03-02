@@ -21,7 +21,7 @@ public class CardDelivery {
         open("http://localhost:9999/");
         $("[data-test-id='city'] input").setValue("Санкт-Петербург");
         $("[data-test-id='date'] input").doubleClick().setValue(String.valueOf(setDateDefault));
-        $("[data-test-id='name'] input").val("Александр Сергеевич Пушкин");
+        $("[data-test-id='name'] input").val("Пушкин Александр");
         $("[data-test-id='phone'] input").val("+79311112233");
         $("span.checkbox__box").click();
         $(withText("Забронировать")).click();
